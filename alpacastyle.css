@@ -1,0 +1,91 @@
+/* selector{ */
+    /* property: value; */
+    /* propertyTwo: valueTwo; */
+/* } */
+
+/* 3 types of selectors: */
+/* html element */
+/* id name */
+/* class name */
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+/***** NAVBAR *****/
+
+nav.navbar{
+    background-color:lightslategray;
+    color:linen;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+nav.navbar ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav.navbar ul li{
+    margin: 0 15px;
+}
+
+nav.navbar a{
+    color:linen;
+    text-decoration: none;
+}
+
+/**** ROW ****/
+
+.row {
+   margin: auto;
+   width: 50%;
+}
+.row ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.row ul li{
+    margin: 0 15px;
+
+}
+
+.jumbo {
+    background-image: url(Contact.jpeg);
+    background-size:cover;
+    height: 300px;
+    overflow:hidden;
+}
+.jumbo h1 {
+    color: #4F5D61;
+    opacity: 0.9;
+    font-size: 1rem;
+    margin: auto;
+    background-color: #fafafabb;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/***** Footer *****/
+
+footer {
+    background-color: #C2B8AD;
+    padding: 15px;
+}
